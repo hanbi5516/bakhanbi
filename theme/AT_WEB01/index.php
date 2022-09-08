@@ -19,7 +19,7 @@ include_once(G5_THEME_PATH.'/head.php');
     <div>
         <img class="wow fadeInDown" data-wow-delay="0s" src="<?php echo G5_THEME_IMG_URL ?>/main/banner_logo.png">
         <h2 class="wow fadeInDown" data-wow-delay="0.3s">fleur</h2>
-        <p class="wow fadeInDown" data-wow-delay="0.6s">fleur은 고객님의 상황에 맞춘<span>가장 적절하고 싱그러움을 선사합니다.</span></p>
+        <p class="wow fadeInDown" data-wow-delay="0.6s">fleur은 고객님의 상황에 맞추어<span>분위기와 싱그러움을 선사합니다.</span></p>
         <div class="square_bracket1 wow fadeInLeft" data-wow-delay="0.1s"></div>
         <div class="square_bracket2 wow fadeInRight" data-wow-delay="0.1s"></div>
     </div>
@@ -27,25 +27,28 @@ include_once(G5_THEME_PATH.'/head.php');
 <div class="aboutWrap">
    <div class="box inner">
         <div class="main_title">
-            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>ATSTORE</span>ABOUT</h2>
-            <p class="wow fadeInDown" data-wow-delay="0.4s">저희 fleur을 찾아주셔서 감사합니다.</p>
+            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>오늘의</span>특가</h2>
+            <p class="wow fadeInDown" data-wow-delay="0.4s">시간</p>
         </div>
         <div class="detail">
             <ul class="clearfix">
                 <li class="first wow bounceInUp" data-wow-delay="0.5s">
-                    <img src="<?php echo G5_THEME_IMG_URL ?>/main/about_icon1.png">
-                    <p>진행중인 프로젝트 수</p>
-                    <strong><span>8,<span class="number" data-max="506" data-vel="6">506</span></span>건</strong>
+                    <img src="<?php echo G5_THEME_IMG_URL ?>/theme/AT_WEB01/skin/latest/today_deal/snadersonia.png">
+                    <p>오렌지색 종모양이 특별한 꽃,</p>
+                    <p>샌더소니아</p>
+                    <strong><span>14,<span class="number" data-max="506" data-vel="6">700</span></span>원</strong>
                 </li>
-                <li class="second wow bounceInUp" data-wow-delay="0.6s">
-                    <img src="<?php echo G5_THEME_IMG_URL ?>/main/about_icon2.png">
-                    <p>함께한 클라이언트 수</p>
-                    <strong><span>1,<span class="number" data-max="766" data-vel="1">766</span></span>명</strong>
+                <li class="second wow bounceInUp" data-wow-delay="0.5s">
+                    <img src="<?php echo G5_THEME_IMG_URL ?>/theme/AT_WEB01/skin/latest/today_deal/alstromeria.png">
+                    <p>남아메리카를 닮은 아름다움,</p>
+                    <p>알스트로메리아</p>
+                    <strong><span>13,<span class="number" data-max="766" data-vel="1">600</span></span>원</strong>
                 </li>
-                <li class="third wow bounceInUp" data-wow-delay="0.7s">
-                    <img src="<?php echo G5_THEME_IMG_URL ?>/main/about_icon3.png">
-                    <p>진행중인 상담 수</p>
-                    <strong><span class="number" data-max="106" data-vel="30">106</span>건</strong>
+                <li class="third wow bounceInUp" data-wow-delay="0.5s">
+                    <img src="<?php echo G5_THEME_IMG_URL ?>/theme/AT_WEB01/skin/latest/today_deal/gentian.png">
+                    <p>신비로운 푸른빛을 담은,</p>
+                    <p>용담초</p>
+                    <strong><span>15,<span class="number" data-max="106" data-vel="30">500</span></span>원</strong>
                 </li>                                 
             </ul>
         </div>
@@ -55,26 +58,33 @@ include_once(G5_THEME_PATH.'/head.php');
 <div class="coreComWrap">
    <div class="box inner">
         <div class="main_title">
-            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>ATSTORE</span>핵심역량</h2>
-            <p class="wow fadeInDown" data-wow-delay="0.4s">앞서가는 트랜드와 끊임없이 발전해가는 골뱅이커뮤니케이션입니다.</p>
+            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>MD's pick</span></h2>
+            <!-- <p class="wow fadeInDown" data-wow-delay="0.4s">앞서가는 트랜드와 끊임없이 발전해가는 골뱅이커뮤니케이션입니다.</p> -->
         </div>
         <div class="detail">
             <ul class="clearfix">
                 <li class="wow bounceInUp" data-wow-delay="0.5s">
                     <img src="<?php echo G5_THEME_IMG_URL ?>/main/coreCom_icon1.png">
-                    <strong>분석 및 컨설팅</strong>
-                    <p>시장조사 및 소비자 트렌드 분석과<span>차별화된 컨설팅</span></p>
+                    <strong>보랏빛 밤 믹스</strong>
+                    <p>27,000원</p>
+                    <a href=""></a>
+                    <img src="" alt="">
                 </li>
                 <li class="second wow bounceInUp" data-wow-delay="0.6s">
                     <img src="<?php echo G5_THEME_IMG_URL ?>/main/coreCom_icon2.png">
-                    <strong>타겟팅</strong>
-                    <p>트렌드 소비자에 맞춘<span>정확한 타겟팅</span></p>
+                    <strong>어텀믹스</strong>
+                    <p>24,000원</p>
                 </li>
                 <li class="wow bounceInUp" data-wow-delay="0.7s">
                     <img src="<?php echo G5_THEME_IMG_URL ?>/main/coreCom_icon3.png">
-                    <strong>마케팅</strong>
-                    <p>매출증대를 위한<span>마케팅 기획 및 실행</span></p>
-                </li>                                 
+                    <strong>화이트 블루 믹스</strong>
+                    <p>15,000원</p>
+                </li>       
+                <li class="second wow bounceInUp" data-wow-delay="0.8s">
+                    <img src="<?php echo G5_THEME_IMG_URL ?>/main/coreCom_icon3.png">
+                    <strong>펫피투게더 믹스</strong>
+                    <p>19,000원</p>
+                </li>                           
             </ul>
         </div>
     </div>
@@ -84,33 +94,54 @@ include_once(G5_THEME_PATH.'/head.php');
 <div class="portfolioWrap">
     <div class="inner">
         <div class="main_title">
-            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>ATSTORE</span>PORTFOLIO</h2>
-            <p class="wow fadeInDown" data-wow-delay="0.4s">앞서가는 트렌드와 끊임없이 발전해가는 골뱅이커뮤니케이션입니다.</p>
+            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>fleur instagram</span></h2>
+            <!-- <p class="wow fadeInDown" data-wow-delay="0.4s">앞서가는 트렌드와 끊임없이 발전해가는 골뱅이커뮤니케이션입니다.</p> -->
         </div>
-        <div class="latest_wr wow bounceInUp" data-wow-delay="0.5s">
-            <?php echo latest('theme/okcarousel', 'at01_gallery', 6, 0, 300,300);?>
+        <div class="latest_wr wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@6ss---.png', 6, 0, 300,300);?>
         </div>
-        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.5s">
-            <?php echo latest('theme/pic_basic', 'at01_gallery', 6, 0, 300,300);?>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@bau---.png', 6, 0, 300,300);?>
         </div>
-        <div class="port_go">
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@con---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@gar---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@jw_---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@sho---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@soo---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@sua---.png', 6, 0, 300,300);?>
+        </div>
+        <div class="latest_wr2 wow bounceInUp" data-wow-delay="0.4s">
+            <?php echo latest('theme/AT_WEB01/img/fluer_instagram/@tjd---.png', 6, 0, 300,300);?>
+        </div>
+        <!-- <div class="port_go">
             <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=at01_gallery">포트폴리오 더보기</a>
-        </div>
+        </div> -->
     </div>
 
 </div>
 <div class="consertWrap">
    <div class="box inner">
         <div class="main_title">
-            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>ATSTORE</span>CONSERTING</h2>
+            <h2 class="wow fadeInDown" data-wow-delay="0.3s"><span>fleur</span>class</h2>
         </div>
         <div class="latest_wr wow bounceInUp" data-wow-delay="0.4s">
             <div class="ing_projects">
-                <?php echo latest('theme/basic', 'QA', 6, 24, 1);?>
+                <?php echo latest('theme/basic', 'fleur_class', 6, 24, 1);?>
             </div>
             
             <div class="news wow bounceInUp" data-wow-delay="0.5s">
-                <?php echo latest('theme/basic', 'at01_news', 6, 24, 2);?>
+                <?php echo latest('theme/basic', 'fleur_class', 6, 24, 2);?>
             </div>
         </div>
     </div>
